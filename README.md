@@ -15,16 +15,19 @@ coworker of mine reminded me that the language existed, and I wanted an excuse t
 ## Execution Times
 A part of the fun of Advent of Code is creating not only a working solution, but one that also executes in a decent
 amount of time. The timer starts on execution and stops once the result has been returned. The times from 10 runs are
-then averaged to smooth out the variability that comes from processor load. All times are measured in milliseconds
-using the [time](https://www.man7.org/linux/man-pages/man1/time.1.html) command.
+then averaged to smooth out the variability that comes from processor load. All times are measured in milliseconds.
 
-| Challenge | Average Time (ms) | Standard Deviation (ms) |
-|:---------:|:-----------------:|:-----------------------:|
+|   Challenge    | Average Time (ms) | Standard Deviation (ms) |
+|:--------------:|:-----------------:|:-----------------------:|
+| Day 1 - Part 1 |     3.061599      |        0.031543         |
+| Day 1 - Part 2 |     3.615723      |        0.034413         |
 
 ## Repository Structure
 
 All solutions are self-contained within directories marked with the day of the challenge. Any special dependencies are
 declared in that day's README.
+
+> Note: The timing code is not contained within the day to minimize the amount of duplicated code. 
 
 ## License
 
